@@ -3,10 +3,10 @@ server:
 
 spring:
   rabbitmq:
-    host: 123.206.94.20
+    host: 116.196.95.138
     port: 5672
-    username: lengleng
-    password: lengleng
+    username: guest
+    password: guest
     
 hystrix:
   command:
