@@ -11,7 +11,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: lengleng
-    url: jdbc:mysql://123.206.94.20:3356/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true
+    url: jdbc:mysql://116.196.95.138:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true
   rabbitmq:
     host: 123.206.94.20
     port: 5672
