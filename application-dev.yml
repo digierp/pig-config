@@ -7,7 +7,7 @@ spring:
   redis:
     host: 116.196.95.138
     port: 6379
-    password: ENC(pr0Ohcnc2rcqFjM/8OCjPA==)
+    password: redis
   http:
     multipart:
       max-file-size: 1000MB
