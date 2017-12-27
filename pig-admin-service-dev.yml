@@ -10,13 +10,13 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: lengleng
-    url: jdbc:mysql://116.196.95.138:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true
+    password: root
+    url: jdbc:mysql://116.196.95.138:3306/pig
   rabbitmq:
-    host: 123.206.94.20
+    host: 116.196.95.138
     port: 5672
-    username: ENC(7/5Zi1aQY/I7GACnfdVbpR1JtTrkM2Sa)
-    password: ENC(7/5Zi1aQY/I7GACnfdVbpR1JtTrkM2Sa)
+    username: guest
+    password: guest
       
 #mybaits-plus配置，修改主键类型，mapper.xml、type 别名等
 mybatis-plus:
